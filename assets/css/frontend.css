@@ -253,7 +253,7 @@ body.single.single-docs .content-area {
     position: absolute;
     right: 0;
     top: 0;
-    color: #777;
+    color: #fff;
 }
 
 .wedocs-single-wrap .wedocs-single-content article a.wedocs-print-article:hover {
@@ -400,10 +400,16 @@ body.single.single-docs .content-area {
     border-bottom: 1px dotted #999;
 }
 
+.wedocs-help-link {}
+
 .wedocs-single-wrap .wedocs-single-content article footer.entry-footer.wedocs-entry-footer time {
     float: right;
     font-weight: normal;
     font-style: italic;
+}
+
+.wedocs-entry-footer time {
+    visibility: hidden;
 }
 
 .wedocs-single-wrap .wedocs-single-content .wedocs-comments-wrap {
