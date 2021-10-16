@@ -121,7 +121,7 @@ body.single.single-docs .content-area {
 
 .wedocs-single-wrap .wedocs-sidebar h3.widget-title {
     font-weight: bold;
-    border-bottom: 1px solid #eee;
+    /* border-bottom: 1px solid #eee; */
     margin: 0 0 15px 0;
     padding: 0 0 15px 0;
 }
@@ -226,6 +226,11 @@ body.single.single-docs .content-area {
 }
 
 .wedocs-single-wrap .wedocs-single-content ol.wedocs-breadcrumb {
+    visibility: hidden;
+    margin-top: 35px;
+    background-color: #F4F4F4;
+    padding-top: 3px;
+    padding-bottom: 3px;
     margin-bottom: 30px;
     list-style: none;
     margin-left: 0;
@@ -274,7 +279,7 @@ body.single.single-docs .content-area {
 .wedocs-single-wrap .wedocs-single-content article .entry-content img {
     max-width: 100%;
     border: 1px solid #eee;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 30px;
     padding: 25px;
     height: auto;
@@ -286,7 +291,7 @@ body.single.single-docs .content-area {
     font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
     display: block;
     padding: 8.5px;
-    margin: 0 0 9px;
+    margin: 0 0 0px;
     word-break: break-all;
     word-wrap: break-word;
     white-space: pre;
