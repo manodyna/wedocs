@@ -227,9 +227,9 @@ body.single.single-docs .content-area {
 
 .wedocs-single-wrap .wedocs-single-content ol.wedocs-breadcrumb {
     visibility: hidden;
-    margin-top: 35px;
+    margin-top: 0px;
     background-color: #F4F4F4;
-    padding-top: 3px;
+    padding-top: 0px;
     padding-bottom: 3px;
     margin-bottom: 30px;
     list-style: none;
@@ -243,7 +243,7 @@ body.single.single-docs .content-area {
 
 .wedocs-single-wrap .wedocs-single-content ol.wedocs-breadcrumb li.delimiter {
     color: #999;
-    margin: 0 2px;
+    margin: 0 0px;
 }
 
 .wedocs-single-wrap .wedocs-single-content ol.wedocs-breadcrumb a {
@@ -282,6 +282,7 @@ body.single.single-docs .content-area {
     margin-top: 0px;
     margin-bottom: 30px;
     padding: 25px;
+    padding-top: 0em;
     height: auto;
     background: #F9F9F9;
     display: block;
@@ -291,6 +292,7 @@ body.single.single-docs .content-area {
     font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
     display: block;
     padding: 8.5px;
+    padding-top: 0em;
     margin: 0 0 0px;
     word-break: break-all;
     word-wrap: break-word;
@@ -375,7 +377,7 @@ body.single.single-docs .content-area {
 }
 
 .wedocs-single-wrap .wedocs-single-content article footer.entry-footer.wedocs-entry-footer {
-    margin-top: 60px;
+    margin-top: 0px;
     float: none;
     width: 100%;
     display: block;
@@ -786,6 +788,11 @@ body.single.single-docs .content-area {
     .wedocs-shortcode-wrap ul.wedocs-docs-list.col-3>li:nth-child(2n+2) {
         margin-right: 0;
     }
+}
+
+.wedocs-single-content {
+    padding-top: 0em;
+    margin-top: -1em;
 }
 
 @media screen and (max-width: 425px) {
