@@ -400,7 +400,9 @@ body.single.single-docs .content-area {
     border-bottom: 1px dotted #999;
 }
 
-.wedocs-help-link {}
+.wedocs-help-link {
+    visibility: hidden;
+}
 
 .wedocs-single-wrap .wedocs-single-content article footer.entry-footer.wedocs-entry-footer time {
     float: right;
