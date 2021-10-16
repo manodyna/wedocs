@@ -793,6 +793,7 @@ body.single.single-docs .content-area {
 .wedocs-single-content {
     padding-top: 0em;
     margin-top: -1em;
+    margin-left: 50px;
 }
 
 @media screen and (max-width: 425px) {
