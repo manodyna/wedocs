@@ -133,7 +133,7 @@ body.single.single-docs .content-area {
 }
 
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li>a:before {
-    content: '\f07c';
+    /* content: '\f07c'; */
     margin-right: 0.625em;
     font-family: 'wedocs';
 }
