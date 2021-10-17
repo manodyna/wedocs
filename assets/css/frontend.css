@@ -175,6 +175,7 @@ body.single.single-docs .content-area {
     display: block;
     padding: 8px 10px 8px 20px;
     text-decoration: none;
+    color: 2b2b2b;
 }
 
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li ul.children {
@@ -193,8 +194,8 @@ body.single.single-docs .content-area {
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li.current_page_parent>a,
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li.current_page_item>a,
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li.current_page_ancestor>a {
-    background: #3598DB;
-    color: #fff;
+    background: #fff;
+    color: #2b2b2b;
     border-radius: 5px;
 }
 
@@ -208,7 +209,7 @@ body.single.single-docs .content-area {
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li.current_page_parent li.current_page_item>a,
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li.current_page_item li.current_page_item>a,
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list>li.current_page_ancestor li.current_page_item>a {
-    border-left: 2px solid #3598DB;
+    border-left: 2px solid #2f2f2f;
     color: #191919;
     font-weight: bold;
 }
@@ -374,6 +375,19 @@ body.single.single-docs .content-area {
 .wedocs-single-wrap .wedocs-single-content article .entry-content .wedocs-callout.callout-red {
     background: #fde8e8;
     border-color: #e7aaaa;
+}
+
+.entry-content {
+    width: 100%;
+    padding-left: 0px;
+    margin-left: -160px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Zilla Slab');
+.entry-title {
+    margin-left: -70px;
+    font-family: "Zilla Slab";
+    font-weight: 700;
 }
 
 .wedocs-single-wrap .wedocs-single-content article footer.entry-footer.wedocs-entry-footer {
