@@ -394,14 +394,33 @@ body.single.single-docs .content-area {
 .entry-content {
     width: 100%;
     padding-left: 0px;
-    margin-left: -160px;
+    margin-left: -150px;
 }
+
+@media screen and (max-width: 767px) {
+    .entry-content {
+        margin-left: 10px;
+    }
+}
+
+
+/* @media screen and (max-device-width: 768px) {
+    .entry-content {
+        margin-left: 400px;
+    }
+} */
 
 @import url('https://fonts.googleapis.com/css?family=Zilla Slab');
 .entry-title {
-    margin-left: -70px;
+    margin-left: -160px;
     font-family: "Zilla Slab";
     font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+    .entry-title {
+        margin-left: 0px;
+    }
 }
 
 .wedocs-single-wrap .wedocs-single-content article footer.entry-footer.wedocs-entry-footer {
